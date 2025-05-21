@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kolizey</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/kolizey-icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Kolizey.PNG" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Колизей</h1>
+            <nav>
+                <ul>
+                    <li><a href="about"></a></li>
+                    <li><a href="derictions"></a></li>
+                    <li><a href="schelude"></a></li>
+                    <li><a href="contacts"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" data-aos="fade-up">
+        <div class="container">
+            <h2>Добро пожаловать в Колизей</h2>
+            <p>Тренировки по боксу и ММА для всех уровней подготовки</p>
+            <a href="#contacts" class="btn">Записаться</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О клубе</h2>
+            <p>Наш клуб - это сила, дисциплина и результат. Мы воспитываем чемпионов и помогаем каждому стать лучше.</p>
+        </div>
+    </section>
+
+    <section id="directions" class="directions" data-aos="fade-right">
+        <div class="container">
+            <h2>Направление</h2>
+            <div class="derictions">
+                <h3>Бокс</h3>
+                <p>Чистая классика и мощная школа ударов.</p>
+            </div>
+            <div class="derictions">
+                <h3>ММА</h3>
+                <p>Смешенные боевые искусства - универсальность и контроль.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="training-timer">
+        <h3>До ближайшей тренировки:</h3>
+        <div id="countdown" class="countdown-timer">
+            <span id="days">00</span>д 
+            <span id="hours">00</span>ч 
+            <span id="minutes">00</span>м 
+            <span id="seconds">00</span>с
+        </div>
+        <p id="next-training-info" class="training-info"></p>
+    </div>
+
+    <section class="trainers">
+        <h2>Наши тренеры</h2>
+        <div class="trainer-list">
+            <div class="trainer">
+                <img src="img/Абдуллаев Алимирза.jpg" alt="Абдуллаев Алимирза">
+                <h3>Абдуллаев Алимирза</h3>
+                <p class="specialty">Бокс</p>
+                <p class="bio">Финалист первенства Москвы по боксу
+                    Победитель всероссийских турниров по боксу
+                    КМС - по боксу 
+                    Член сборной Москвы по боксу</p>
+                <div class="schedule">
+                    <h4>Расписание:</h4>
+                    <p><strong>Детская группа:</strong> Вт, Чт, Сб — 17:00-18:00</p>
+                    <p><strong>Взрослая группа:</strong> Вт, Чт, Сб — 19:00-20:30</p>
+                    <p><strong>Взрослая группа:</strong> Бокс дополнительные тренировки* 15:00-16:00 (понедельник, среда, пятница)</p>
+                </div>
+            </div>
+        
+            <div class="trainer">
+                <img src="img/Шахпазов Минхажудин.jpg" alt="Шахпазов Минхажудин">
+                <h3>Шахпазов Минхажудин</h3>
+                <p class="specialty">ММА</p>
+                <p class="bio">Двукратный победитель чемпионата Москвы (грэпплинг)
+                    Победитель чемпионата России (грэпплинг)
+                    Победитель СКФО (грэпплинг)
+                    финалист чемпионата Европы (грэпплинг)
+                    Чемпион России по грэпплингу
+                    Мастер спорта по MMA
+                    КМС по Грэпплингу
+                    мастер спорта по АРБ (Армейский Рукопашный Спорт)</p>
+                <div class="schedule">
+                    <h4>Расписание:</h4>
+                    <p><strong>ММА взрослая группа (от 13 лет)</strong> Вт, Чт, Cб — 20:30-22:00</p>
+                    <p><strong>ММА средняя группа (дети от 9 до 12 лет)</strong> Пн, Ср, Пт — 19:00-20:30</p>
+                    <p><strong>ММА младшая группа (дети до 8 лет)</strong> Пн, Ср, Пт — 18:00-19:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts" data-aos="fade-up">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Московская область, рп.Лопатино, Солнечный бульвар 10</p>
+            <p>+7-(999)-999-99-99</p>
+            <p>Email: kolizey@gmail.com</p>
+        </div>
+    </section>
+
+    <a href="https://wa.me/+79152826687" target="_blank">
+        <button style="background-color: #25d366; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px;">
+            Напишите нам в WhatsApp
+        </button>
+    </a>
+
+    <a href="https://t.me/+79152826687" target="_blank">
+        <button style="background-color: #0088cc; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px;">
+            Напишите нам в Telegram
+        </button>
+    </a>
+
+    <a href="#" class="to-top">↑</a>
+    
+    <section class="hero" data-aos="zoom-in">
+        <div class="container">
+            <h1>Клуб единоборств «Колизей»</h1>
+            <p>Бокс, ММА — тренируйся с лучшими</p>
+            <a href="#contacts" class="btn">Записаться</a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        window.addEventListener('scroll', () => {
+            const btn = document.querySelector('.to-top');
+            if (window.scrollY > 500) {
+                btn.style.display = 'block';
+            } else {
+                btn.style.display = 'none';
+            }
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
